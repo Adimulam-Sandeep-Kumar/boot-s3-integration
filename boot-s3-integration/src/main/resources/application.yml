@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAWGLPQP5CATNTSYQR
+      secret-key: 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
+    region:
+      static: US West (Oregon) us-west-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: myownpage
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8090
